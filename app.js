@@ -12,7 +12,8 @@ const app = express();
 // app.use(session(sessionOptions));
 app.post('/', (req, res) => {
     console.log("connection reached")
-    res.json({});
+    res.send("hello there");
+    
 });
 // Route to register Local Server
 // app.post('/register', (req, res) => {
